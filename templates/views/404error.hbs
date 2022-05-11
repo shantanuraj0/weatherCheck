@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+
+    {{>navbar}}
+
+    <!--main header-->
+    <div class=" main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+               <div  class="row">
+                     <!--left side div-->
+
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.png" alt="Shantanu Raj" class="img-fluid" title="Shantanu Raj">
+                        </figure>
+                          
+                    
+                        <p>Welcome to weather app</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/" ><button>Go Back to Home Page</button></a>
+                    </div>
+
+                    <!--right side div-->
+                    
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer part-->
+   {{>footer}}
+
+</body>
+</html>
