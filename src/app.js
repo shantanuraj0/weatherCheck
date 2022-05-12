@@ -6,7 +6,7 @@ const path = require('path');
 const hbs = require('hbs');
 const { partials } = require('handlebars');
 const app = express(); //with help of this we can acess all functionalities of application
-const port = 8000 || process.env.PORT; //added process... part for handling hosting
+const port = process.env.PORT || 8000; //added process... part for handling hosting
 
 
 //public static path
