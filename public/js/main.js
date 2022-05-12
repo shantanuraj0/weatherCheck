@@ -20,8 +20,8 @@ const getInfo = async(event) => {
             //handles different cases with city name
         try{
            
-
-            let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=Enter your app id here`
+            //add your weather map api here
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=Enter your app id here`
             const response = await fetch(url);
 
             const data = await response.json();
